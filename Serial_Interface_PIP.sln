@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27924.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serial_Interface_PIP", "SerialInterfacePIP\Serial_Interface_PIP.csproj", "{36664294-34B7-4FB6-B8D4-6C7A24CCFE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36664294-34B7-4FB6-B8D4-6C7A24CCFE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36664294-34B7-4FB6-B8D4-6C7A24CCFE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36664294-34B7-4FB6-B8D4-6C7A24CCFE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36664294-34B7-4FB6-B8D4-6C7A24CCFE98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E811994-6E0E-41F1-AD56-9113AC0B8599}
+	EndGlobalSection
+EndGlobal
