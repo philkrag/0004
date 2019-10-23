@@ -95,6 +95,26 @@ namespace WindowsFormsApp1
 
 
 
+        private void exportFromDeviceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "SDFileExport";
+        }
+
+        private void deleteMemoryFromDeviceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "SDFileDelete";
+        }
+
+        private void resetTimeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "RTCSetTime;"+DateTime.Now.ToString("yyyy")+";" + DateTime.Now.ToString("MM") + ";" + DateTime.Now.ToString("dd") + ";" + DateTime.Now.ToString("HH") + ";" + DateTime.Now.ToString("mm");
+        }
+
+
+
+
+
+
 
 
         public void Refresh_Connection_Properties()

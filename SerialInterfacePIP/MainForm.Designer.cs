@@ -68,6 +68,10 @@
             this.arduinoFreetronicsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.refreshConnectionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.actionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportFromDeviceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteMemoryFromDeviceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resetTimeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Status_Indicator)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -366,6 +370,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.setupToolStripMenuItem,
+            this.actionsToolStripMenuItem,
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -410,6 +415,37 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // actionsToolStripMenuItem
+            // 
+            this.actionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exportFromDeviceToolStripMenuItem,
+            this.deleteMemoryFromDeviceToolStripMenuItem,
+            this.resetTimeToolStripMenuItem});
+            this.actionsToolStripMenuItem.Name = "actionsToolStripMenuItem";
+            this.actionsToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.actionsToolStripMenuItem.Text = "Actions";
+            // 
+            // exportFromDeviceToolStripMenuItem
+            // 
+            this.exportFromDeviceToolStripMenuItem.Name = "exportFromDeviceToolStripMenuItem";
+            this.exportFromDeviceToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.exportFromDeviceToolStripMenuItem.Text = "Export from Device";
+            this.exportFromDeviceToolStripMenuItem.Click += new System.EventHandler(this.exportFromDeviceToolStripMenuItem_Click);
+            // 
+            // deleteMemoryFromDeviceToolStripMenuItem
+            // 
+            this.deleteMemoryFromDeviceToolStripMenuItem.Name = "deleteMemoryFromDeviceToolStripMenuItem";
+            this.deleteMemoryFromDeviceToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.deleteMemoryFromDeviceToolStripMenuItem.Text = "Delete Memory from Device";
+            this.deleteMemoryFromDeviceToolStripMenuItem.Click += new System.EventHandler(this.deleteMemoryFromDeviceToolStripMenuItem_Click);
+            // 
+            // resetTimeToolStripMenuItem
+            // 
+            this.resetTimeToolStripMenuItem.Name = "resetTimeToolStripMenuItem";
+            this.resetTimeToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.resetTimeToolStripMenuItem.Text = "Reset Time";
+            this.resetTimeToolStripMenuItem.Click += new System.EventHandler(this.resetTimeToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -485,6 +521,10 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ToolStripMenuItem refreshConnectionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem actionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportFromDeviceToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deleteMemoryFromDeviceToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resetTimeToolStripMenuItem;
     }
 }
 
